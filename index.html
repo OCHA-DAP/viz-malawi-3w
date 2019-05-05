@@ -46,7 +46,7 @@
   </head>
 
   <body>
-   	<div class="container" width:75%; margin: 0 auto;>
+   	<div class="container" width:80%; margin: 0 auto;>
 
   	<div id="loadinggif"><img src="https://ui-ex.com/images/gif-transparent-loading-4.gif"></div>
 
@@ -55,11 +55,11 @@
       <table style="float: right;">
             <tr>
                 <td>
-			        <img style="height: 50px" class="img-responsive hdx" src='images/Gov_malawi.png'>
+			        <img style="height: 50px; padding-right: 30px" class="img-responsive hdx" src='images/Gov_malawi.png'>
                 </td>
             </tr>
         </table>
-      <h3 class="my-0 mr-md-auto font-weight-bold">&nbsp; &nbsp; Malawi Flood Response Tracking 2019</h3>
+      <h3 class="my-0 mr-md-auto font-weight-bold">Malawi Flood Response Tracking 2019</h3>
       <div class="col-3 blockmaptop" style="border-right:0px">
 		    <font class="blockmaptop_title">
 	    	</font>
@@ -286,11 +286,11 @@
 
 				// get color depending on population density value
 				function getColor(d) {
-					return 	d > 50  ? '#EC645B' :
-							d > 20  ? '#EF8078' :
-							d > 10  ? '#F29C96' :
-							d > 5   ? '#F6B8B4' :
-							d > 1   ? '#F9D4D2' :
+					return 	d > 50  ? '#157A72' :
+							d > 20  ? '#1B9D93' :
+							d > 10  ? '#20BFB3' :
+							d > 5   ? '#48CAC0' :
+							d > 1   ? '#85DCD5' :
 										'transparent';
 				}
 
@@ -397,7 +397,7 @@
 				  	padding:'15px',
 			        pieSliceText: 'label',
 			        pieStartAngle: 100,
-			        colors: ['#2E75BA', '#548EC6', '#7AA7D3', '#A0C0DF', '#C6D9EC'],
+			        colors: ['#157A72', '#1B9D93', '#20BFB3', '#48CAC0', '#85DCD5'],
 			        chartArea:{
 			        	left:'15%',
 			        	top:10,
@@ -436,7 +436,7 @@
 				  	legend: 'none',
 			        pieSliceText: 'label',
 			        pieStartAngle: 100,
-			        colors: ['#2E75BA', '#7AA7D3', '#C6D9EC'],
+			        colors: ['#20BFB3', '#1B9D93', '#85DCD5'],
 			        chartArea:{
 			        	left:"15%",
 			        	top:10,
@@ -482,7 +482,7 @@
 				      var data = google.visualization.arrayToDataTable(thedata);
 
 				      var options = {
-				      	colors:['#2E75BA'],
+				      	colors:['#20bfb3'],
 				      	height:350,
 				        chartArea: {width: '70%',top:5,right:3 ,bottom:40},
 				        legend: 'none',

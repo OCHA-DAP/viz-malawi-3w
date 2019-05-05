@@ -143,8 +143,8 @@ th{
 .page-item.active .page-link {
     z-index: 1;
     color: #fff;
-    background-color: #4285f4;
-    border-color: #4285f4;
+    background-color: #20BFB3;
+    border-color: #157A72;
 }
 .page-link {
     position: relative;
@@ -152,7 +152,7 @@ th{
     padding: .3rem .75rem;
     margin-left: -1px;
     line-height: 1.25;
-    color: #4285f4;
+    color: #157A72;
     background-color: #fff;
     border: 1px solid #dee2e6;
 }
@@ -198,7 +198,7 @@ div.dataTables_wrapper div.dataTables_filter label {
 }
 
 .button {
-    background-color: #2E75BA;
+    background-color: #20BFB3;
     border: none;
     color: white;
     padding: 15px 25px;
@@ -208,7 +208,7 @@ div.dataTables_wrapper div.dataTables_filter label {
 }
 
 .button:hover {
-    background-color: #266099;
+    background-color: green;
 
 
 @media only screen and (max-width: 500px) {
